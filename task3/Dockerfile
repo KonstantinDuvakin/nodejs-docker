@@ -4,4 +4,4 @@ COPY packages/package*.json .
 RUN npm i
 COPY src .
 EXPOSE 3032
-ENTRYPOINT ["node", "hello.sh"]
+CMD ["node", "hello.sh"]
